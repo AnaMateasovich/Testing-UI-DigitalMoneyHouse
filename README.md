@@ -9,7 +9,7 @@ Automation UI tests developed with:
 
 ## Features tested
 
-- Login
+- Login and Register
 - Create credit card
 - Delete card
 - Deposit money
