@@ -15,6 +15,9 @@ public class TestData {
     public static final String VALID_EXP_DATE_CARD = "0929";
     public static final String VALID_SEC_COD_CARD = "123";
 
+    //PAY SERVICE
+    public static final String SERVICE_TO_PAY_ID = "1";
+    public static final String SERVICE_TO_PAY_COD = "37289701912";
 
 
     private TestData() {}

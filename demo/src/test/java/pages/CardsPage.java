@@ -27,8 +27,6 @@ private WebDriverWait wait;
     ;
 
 
-
-
     public CardsPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -77,12 +75,9 @@ private WebDriverWait wait;
     ));
 
         By deleteButton = By.cssSelector("[data-test-id='delete-card-" + last4 + "']");
-        System.out.println(deleteButton);
 
         WebElement button = wait.until(ExpectedConditions.elementToBeClickable(deleteButton));
         button.click();
-
-        System.out.println("hizo click");
 
 
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());

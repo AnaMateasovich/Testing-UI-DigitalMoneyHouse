@@ -14,7 +14,7 @@ public class RegisterTest extends BaseTest {
     @Test
     void successRegister() {
         RegisterPage registerPage = new RegisterPage(driver);
-        registerPage.register("Prueba3", "Test", "15357899", "prueba.test4@mail.com", "1234Ab.", "1234Ab.", "3464558899");
+        registerPage.register("Bla", "Blabla", "23232345", "bla1@mail.com", "1234Ab.", "1234Ab.", "3464558899");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(
